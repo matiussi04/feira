@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect
-from json2docx.JsonToDocx import JsonToDocx
+from json_to_docx.JsonToDocx import JsonToDocx
 import os
 
 app = Flask(__name__)
