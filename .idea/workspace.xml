@@ -7,8 +7,9 @@
     <list default="true" id="85fafedd-67e1-45c7-b601-299e63b0ecc6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_document.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_document.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/template.docx" beforeDir="false" afterPath="$PROJECT_DIR$/template.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

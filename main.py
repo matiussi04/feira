@@ -17,7 +17,6 @@ def data():
     aluno = request.form['aluno']
     orientador = request.form['orientador']
     conteudo1 = request.form['conteudo1']
-    conteudo2 = request.form['conteudo2']
 
     data = {
         "fields": [
@@ -39,11 +38,7 @@ def data():
             },
             {
                 "key": "conteudo1",
-                "value": editor,
-            },
-            {
-                "key": "conteudo2",
-                "value": editor,
+                "value": conteudo1,
             },
         ]
     }
