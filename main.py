@@ -12,12 +12,32 @@ def home():
 
 @app.route('/data', methods=['POST'])
 def data():
+    coordenador = request.form['coordenador']
+    titulo = request.form['titulo']
+    aluno = request.form['aluno']
+    orientador = request.form['orientador']
     editor = request.form['editor']
 
     data = {
         "fields": [
             {
-                "key": "content",
+                "key": "coordenador",
+                "value": coordenador,
+            },
+            {
+                "key": "titulo",
+                "value": titulo,
+            },
+            {
+                "key": "aluno",
+                "value": aluno,
+            },
+            {
+                "key": "orientador",
+                "value": orientador,
+            },
+            {
+                "key": "conteudo",
                 "value": editor,
             },
         ]
