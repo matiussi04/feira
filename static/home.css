@@ -8,16 +8,38 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #eeecec
+  min-height: 100vh;
+  background-color: #eeecec;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 form {
-  width: 80%;
-  max-width: 800px;
+  width: 790px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 600px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 8px;
+  outline: 0;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.tox.tox-tinymce {
+  margin-bottom: 20px;
 }
 
 button {
